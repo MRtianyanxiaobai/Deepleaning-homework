@@ -1,0 +1,7 @@
+其中
+datasets文件夹中包含了深度学习所需要的数据集
+lr_utill.py:对文件夹中的数据进行加载的过程
+dnnutill:定义了激活函数以及它们的导数
+treeNetwork：改文件可单独运行，利用np写了一个三层神经网络
+deepNetworkUtill:深度神经网络的初始化，前项传播，后向传播等
+deepNetwork:根据deepNetworkUtill工具包，调用其中函数，建立了完整的networkmodle
